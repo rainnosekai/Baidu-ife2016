@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+*{
+	margin: 0;
+	padding: 0px;
+}
+#container{
+	flex-flow: row wrap;
+	align-items: center;
+		padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+#box1,#box2,#box3,#box4{
+margin:20px;
+ width: 150px;
+ background-color: #ccc;
+ border: 1px solid red;
+ order: 1;
+}
+#box1{
+	height: 120px;
+}
+#box2{
+	height: 100px;
+}
+#box3{
+	height:40px;
+}
+#box4{
+	height: 200px;
+	border: 1px solid blue;
+}
+@media(max-width:640px){
+	#box4{
+		order: 0;
+}
+
+</style>
+	<title></title>
+</head>
+<body>
+<div id=container>
+ <div id="box1">
+ </div>
+ <div id="box2"></div>
+ <div id="box3"></div>
+ <div id="box4"></div>
+</div>
+</body>
+</html>

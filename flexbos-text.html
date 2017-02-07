@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style> 
+ .flex-parent{
+    display: flex;
+    height: 200px;
+    width: 800px;
+ }
+.flex-son:nth-child(1){
+    flex:1 1 100px;
+    background-color: #ccc;
+}
+.flex-son:nth-child(2){
+    flex:1 2 100px;
+    background-color: red;
+}
+.flex-son:nth-child(3){
+    flex:3 1 100px;
+    background-color: yellow;
+}
+
+    </style> 
+
+
+    <title></title>
+</head>
+<body>
+  <div class="flex-parent"> 
+  <div class="flex-son"></div> 
+  <div class="flex-son"></div> 
+  <div class="flex-son"></div> 
+  </div>
+
+
+</body>
+</html>
