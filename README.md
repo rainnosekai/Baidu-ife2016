@@ -5,9 +5,11 @@
  event.target.dataset.city //获取当前city
  
  示例
+ ```javascript
  <div id="day-meal-expense" data-drink="tea" data-food="noodle" data-meal="lunch">
   var expenseday=document.getElementById('day-meal-expense');
   var typeOfDrink=expenseday.dataset.drink;
   console.log(typeOfDrink);//tea
   console.log(expenseday.dataset.food);//noodle
   console.log(expenseday.dataset.meal);//lunch
+  ```
